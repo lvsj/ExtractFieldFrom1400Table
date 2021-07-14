@@ -1,0 +1,339 @@
+/** 
+信息分类
+*/ 
+ private  String InfoKind; 
+/** 
+来源标识
+*/ 
+ private  String SourceID; 
+/** 
+设备编码
+*/ 
+ private  String DeviceID; 
+/** 
+左上角X坐标
+*/ 
+ private  Integer LeftTopX; 
+/** 
+左上角Y坐标
+*/ 
+ private  Integer LeftTopY; 
+/** 
+右下角X坐标
+*/ 
+ private  Integer RightBtmX; 
+/** 
+右下角Y坐标
+*/ 
+ private  Integer RightBtmY; 
+/** 
+位置标记
+时间
+*/ 
+ private  String LocationMarkTime; 
+/** 
+人员出现
+时间
+*/ 
+ private  String PersonAppearTime; 
+/** 
+人员消失
+时间
+*/ 
+ private  String PersonDisAppearTime ; 
+/** 
+证件种类
+*/ 
+ private  String IDType; 
+/** 
+证件号码
+*/ 
+ private  String IDNumber; 
+/** 
+姓名
+*/ 
+ private  String Name; 
+/** 
+曾用名
+*/ 
+ private  String UsedName; 
+/** 
+绰号
+*/ 
+ private  String Alias; 
+/** 
+性别代码
+*/ 
+ private  String GenderCode; 
+/** 
+年龄上限
+*/ 
+ private  Integer AgeUpLimit; 
+/** 
+年龄下限
+*/ 
+ private  Integer AgeLowerLimit; 
+/** 
+民族代码
+*/ 
+ private  String EthicCode; 
+/** 
+国籍代码
+*/ 
+ private  String NationalityCode; 
+/** 
+籍贯省市县
+代码
+*/ 
+ private  String NativeCityCode
+; 
+/** 
+居住地
+行政区划
+*/ 
+ private  String ResidenceAdminDivision; 
+/** 
+汉语口音代码
+*/ 
+ private  String ChineseAccentCode; 
+/** 
+单位名称
+*/ 
+ private  String PersonOrg; 
+/** 
+职业类别代码
+*/ 
+ private  String JobCategory; 
+/** 
+同行人数
+*/ 
+ private  Integer AccompanyNumber; 
+/** 
+身高上限
+*/ 
+ private  Integer HeightUpLimit; 
+/** 
+身高下限
+*/ 
+ private  Integer HeightLowerLimit; 
+/** 
+体型
+*/ 
+ private  String BodyType; 
+/** 
+肤色
+*/ 
+ private  String SkinColor; 
+/** 
+发型
+*/ 
+ private  String HairStyle; 
+/** 
+发色
+*/ 
+ private  String HairColor; 
+/** 
+姿态
+*/ 
+ private  String Gesture; 
+/** 
+状态
+*/ 
+ private  String Status; 
+/** 
+脸型
+*/ 
+ private  String FaceStyle; 
+/** 
+脸部特征
+*/ 
+ private  String FacialFeature; 
+/** 
+体貌特征
+*/ 
+ private  String PhysicalFeature; 
+/** 
+体表特征
+*/ 
+ private  String BodyFeature; 
+/** 
+习惯动作
+*/ 
+ private  String HabitualMovement; 
+/** 
+行为
+*/ 
+ private  String Behavior; 
+/** 
+行为描述
+*/ 
+ private  String BehaviorDescription; 
+/** 
+附属物
+*/ 
+ private  String Appendant; 
+/** 
+附属物
+描述
+*/ 
+ private  String AppendantDescription; 
+/** 
+伞颜色
+*/ 
+ private  String UmbrellaColor; 
+/** 
+口罩颜色
+*/ 
+ private  String RespiratorColor; 
+/** 
+帽子款式
+*/ 
+ private  String CapStyle; 
+/** 
+帽子颜色
+*/ 
+ private  String CapColor; 
+/** 
+眼镜款式
+*/ 
+ private  String GlassStyle; 
+/** 
+眼镜颜色
+*/ 
+ private  String GlassColor; 
+/** 
+围巾颜色
+*/ 
+ private  String ScarfColor; 
+/** 
+包款式
+*/ 
+ private  String BagStyle; 
+/** 
+包颜色
+*/ 
+ private  String BagColor; 
+/** 
+上衣款式
+*/ 
+ private  String CoatStyle; 
+/** 
+上衣长度
+*/ 
+ private  String CoatLength; 
+/** 
+上衣颜色
+*/ 
+ private  String CoatColor; 
+/** 
+裤子款式
+*/ 
+ private  String TrousersStyle; 
+/** 
+裤子颜色
+*/ 
+ private  String TrousersColor; 
+/** 
+裤子长度
+*/ 
+ private  String TrousersLen; 
+/** 
+鞋子款式
+*/ 
+ private  String ShoesStyle; 
+/** 
+鞋子颜色
+*/ 
+ private  String ShoesColor; 
+/** 
+是否驾驶员
+*/ 
+ private  Integer IsDriver; 
+/** 
+是否涉外人员
+*/ 
+ private  Integer IsForeigner; 
+/** 
+护照证件种类
+*/ 
+ private  String PassportType; 
+/** 
+出入境人员类别代码
+*/ 
+ private  String ImmigrantTypeCode; 
+/** 
+是否涉恐人员
+*/ 
+ private  Integer IsSuspectedTerrorist; 
+/** 
+涉恐人员编号
+*/ 
+ private  String SuspectedTerroristNumber; 
+/** 
+是否涉案人员
+*/ 
+ private  Integer IsCriminalInvolved; 
+/** 
+涉案人员专长代码
+*/ 
+ private  String CriminalInvolvedSpecilisationCode; 
+/** 
+体表特殊标记
+*/ 
+ private  String BodySpeciallMark; 
+/** 
+作案手段
+*/ 
+ private  String CrimeMethod; 
+/** 
+作案特点代码
+*/ 
+ private  String CrimeCharacterCode; 
+/** 
+在逃人员编号
+*/ 
+ private  String EscapedCriminalNumber; 
+/** 
+是否在押人员
+*/ 
+ private  Integer IsDetainees; 
+/** 
+看守所编码
+*/ 
+ private  String DetentionHouseCode; 
+/** 
+在押人员身份
+*/ 
+ private  String DetaineesIdentity; 
+/** 
+在押人员特殊身份
+*/ 
+ private  String DetaineesSpecialIdentity; 
+/** 
+成员类型代码
+*/ 
+ private  String MemberTypeCode; 
+/** 
+是否被害人
+*/ 
+ private  Integer IsVictim; 
+/** 
+被害人种类
+*/ 
+ private  String VictimType; 
+/** 
+受伤害程度
+*/ 
+ private  String InjuredDegree; 
+/** 
+尸体状况代码
+*/ 
+ private  String CorpseConditionCode; 
+/** 
+是否可疑人
+*/ 
+ private  Integer IsSuspiciousPerson; 
+/** 
+图像列表
+*/ 
+ private  String SubImageList; 
